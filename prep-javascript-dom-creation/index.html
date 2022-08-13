@@ -13,7 +13,7 @@
     document.body.onload = addElement;
     function addElement() {
       var $heading = document.createElement('h1');
-      $heading = document.createTextNode('Hello world!');
+      $heading.textContent = 'Hello World!';
       console.log($heading);
       $container.appendChild($heading);
     }
